@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         String[] in = FileArrayProvider.readLines(
                 "/home/czawlz/IdeaProjects/KataWorkspace/src/com/czawls/aoc/six/input");
-        int ret = AocSix.solveOne(in);
+        int ret = AocSix.solveTwo(in);
         System.out.println(ret);
     }
 }
